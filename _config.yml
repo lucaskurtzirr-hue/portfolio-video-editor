@@ -1,0 +1,20 @@
+title: Portfolio Video Editor
+description: Editor de vídeo freelancer focado em games
+lang: pt-BR
+
+# GitHub Pages (project site)
+# URL final: https://lucaskurtzirr-hue.github.io/portfolio-video-editor/
+url: "https://lucaskurtzirr-hue.github.io"
+baseurl: "/portfolio-video-editor"
+
+markdown: kramdown
+theme: null
+
+plugins: []
+
+exclude:
+  - docs/
+  - portfolio-video-editor-wiki/
+  - Gemfile
+  - Gemfile.lock
+  - README.md

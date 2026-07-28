@@ -1,0 +1,234 @@
+/* Portfolio Video Editor — estilo base sóbrio */
+
+:root {
+  --bg: #fafafa;
+  --bg-alt: #f0f0f0;
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --border: #ddd;
+  --accent: #2a2a2a;
+  --max-width: 720px;
+  --space: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.container {
+  width: min(100% - 2rem, var(--max-width));
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 0.5rem 1rem;
+  background: var(--accent);
+  color: #fff;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* Header */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space);
+  padding-block: 1rem;
+}
+
+.site-title {
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+.site-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+/* Sections */
+
+.section {
+  padding-block: 3rem;
+}
+
+.section-alt {
+  background: var(--bg-alt);
+}
+
+.hero {
+  padding-block: 4rem 3rem;
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin: 0 0 0.5rem;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  line-height: 1.2;
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+}
+
+.section-intro {
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 2px;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.9;
+}
+
+/* Placeholders & lists */
+
+.placeholder-box {
+  border: 1px dashed var(--border);
+  background: #fff;
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.card .meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.simple-list,
+.contact-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.process-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.process-list li + li {
+  margin-top: 0.75rem;
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding-block: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .site-nav {
+    width: 100%;
+  }
+
+  .section {
+    padding-block: 2.5rem;
+  }
+
+  .hero {
+    padding-block: 3rem 2rem;
+  }
+}
