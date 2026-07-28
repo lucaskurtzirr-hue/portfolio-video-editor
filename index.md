@@ -87,27 +87,34 @@ description: Video Editor Portfolio for Gaming Creators
     <h2 lang="en">Services</h2>
     <h2 lang="pt">Serviços</h2>
 
-    <p class="section-intro" lang="en">[Placeholder — What the editor offers.]</p>
-    <p class="section-intro" lang="pt">[Placeholder — O que o editor oferece.]</p>
+    <p class="section-intro" lang="en">Custom editing solutions for gaming creators and streamers. Quotes provided based on project scope.</p>
+    <p class="section-intro" lang="pt">Soluções personalizadas de edição para criadores de games e streamers. Orçamentos sob consulta conforme o projeto.</p>
 
-    <ul class="simple-list">
-      <li>
-        <span lang="en">[Placeholder — Video type 1, e.g. YouTube Highlights]</span>
-        <span lang="pt">[Placeholder — Tipo de vídeo 1, ex.: Highlights]</span>
-      </li>
-      <li>
-        <span lang="en">[Placeholder — Video type 2, e.g. Shorts / TikTok / Reels]</span>
-        <span lang="pt">[Placeholder — Tipo de vídeo 2, ex.: Shorts / TikTok / Reels]</span>
-      </li>
-      <li>
-        <span lang="en">[Placeholder — Video type 3, e.g. VOD Edit]</span>
-        <span lang="pt">[Placeholder — Tipo de vídeo 3, ex.: VOD editada]</span>
-      </li>
-      <li>
-        <span lang="en">[Placeholder — Extras: Subtitles, SFX, Thumbnail]</span>
-        <span lang="pt">[Placeholder — Extras: legendas, SFX, thumbnail]</span>
-      </li>
-    </ul>
+    <div class="card-list">
+      <div class="card">
+        <h3 lang="en">Shorts / Reels / TikToks</h3>
+        <h3 lang="pt">Shorts / Reels / TikToks</h3>
+
+        <p lang="en">High-retention vertical edits designed for social media algorithms. Includes dynamic kinetic typography, motion graphics, and sound design.</p>
+        <p lang="pt">Edições verticais de alta retenção projetadas para os algoritmos das redes sociais. Inclui tipografia cinética dinâmica, motion graphics e sound design.</p>
+      </div>
+
+      <div class="card">
+        <h3 lang="en">YouTube Long-Form & Highlights</h3>
+        <h3 lang="pt">Vídeos Longos & Highlights para YouTube</h3>
+
+        <p lang="en">Full VOD and stream editing into engaging YouTube videos. Clean cuts, storytelling pacing, motion graphics, and custom thumbnails.</p>
+        <p lang="pt">Edição completa de VODs e lives para vídeos marcantes no YouTube. Cortes limpos, ritmo narrativo, motion graphics e criação de thumbnails.</p>
+      </div>
+
+      <div class="card">
+        <h3 lang="en">Streamer Pack & Add-ons</h3>
+        <h3 lang="pt">Pacote Streamer & Extras</h3>
+
+        <p lang="en">Complete content pipeline for streamers. Turn long live streams into a steady flow of shorts and main channel videos. Includes Motion Graphics, Kinetic Typography, SFX, and custom Thumbnails.</p>
+        <p lang="pt">Fluxo completo de conteúdo para streamers. Transforme lives em uma sequência constante de shorts e vídeos principais. Inclui Motion Graphics, Tipografia Cinética, SFX e Thumbnails exclusivas.</p>
+      </div>
+    </div>
   </div>
 </section>
 

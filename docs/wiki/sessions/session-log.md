@@ -211,7 +211,38 @@
 
 ### Próximo passo
 
-- Coletar informações do Bloco 3 — Serviços.
+- Iniciar Bloco 4 — Processo.
+
+---
+
+## 2026-07-28 — Bloco 3 (Serviços) Concluído
+
+### Feito
+
+- Adicionados os 3 blocos de serviços no `index.md`: **Shorts / Reels / TikToks**, **YouTube Long-Form & Highlights** e **Streamer Pack & Add-ons**.
+- Incluídas as habilidades e técnicas adicionais (Motion Graphics, Tipografia Cinética/Kinetic Typography, Sound Design/SFX e Thumbnails).
+- Modelo de precificação definido como **Sob Orçamento / Consultar Valor**.
+- Atualizado `docs/wiki/brief.md` com precificação e extras.
+
+### Arquivos alterados
+
+- `index.md`
+- `docs/wiki/brief.md`
+- `docs/wiki/sessions/session-log.md`
+
+### Decisões
+
+- Vender serviços via orçamento personalizado sem exibir preços fixos.
+- Destacar os recursos visuais de alta retenção (Motion Graphics, Kinetic Typography, SFX e Thumbnails).
+
+### Pendências
+
+- Iniciar Bloco 4 — Processo.
+
+### Próximo passo
+
+- Confirmar o fluxo de trabalho do Bloco 4 — Processo.
+
 
 
 
