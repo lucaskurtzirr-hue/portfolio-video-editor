@@ -88,15 +88,39 @@
 - Stack: Jekyll puro, CSS vanilla, single-page com âncoras.
 - GitHub Pages: deploy from branch `main`, root.
 
+---
+
+## 2026-07-28 — Ativação GitHub Pages e Suporte Bilingue (EN / PT)
+
+### Feito
+
+- GitHub Pages ativado com sucesso no repositório remoto via aba Settings > Pages (`main` / root).
+- Verificada publicação online em `https://lucaskurtzirr-hue.github.io/portfolio-video-editor/` (status 200 OK).
+- Configurado **Inglês (`en`)** como idioma padrão do site (`_config.yml` e `_layouts/default.html`).
+- Adicionado seletor de idioma (**EN | PT**) no cabeçalho com Vanilla JS leve e armazenamento em `localStorage`.
+- Atualizados `index.md`, `_layouts/default.html` e `assets/css/style.css` com atributos e regras CSS `lang="en"` / `lang="pt"`.
+
+### Arquivos alterados
+
+- `_config.yml`
+- `_layouts/default.html`
+- `index.md`
+- `assets/css/style.css`
+- `docs/wiki/sessions/session-log.md`
+- `docs/wiki/decisions/decisions.md`
+
+### Decisões
+
+- Idioma principal do site: **Inglês (`en`)**.
+- Alternância de idioma instantânea sem recarregar a página, controlada por CSS `[lang="..."]` e botões `EN | PT`.
+- O cliente pode fornecer os rascunhos em Português e o site exibirá tanto em EN quanto em PT.
+
 ### Pendências
 
-- Ativar GitHub Pages no repositório (Settings → Pages ou `gh` CLI).
-- Instalar Ruby + Bundler para preview local.
-- Preencher placeholders com conteúdo final.
-- Remover pasta legada `portfolio-video-editor-wiki/` (opcional).
+- Preencher brief e posicionamento na wiki com informações reais do editor.
+- Substituir placeholders bilingues do site pelo conteúdo definitivo em Inglês e Português.
 
 ### Próximo passo
 
-- Ativar GitHub Pages e validar URL publicada.
 - Preencher brief e posicionamento na wiki.
-- Substituir placeholders do site pelo conteúdo real.
+

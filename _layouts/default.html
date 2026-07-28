@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'pt-BR' }}">
+<html lang="{{ site.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,40 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <a class="skip-link" href="#main">
+    <span lang="en">Skip to content</span>
+    <span lang="pt">Pular para o conteúdo</span>
+  </a>
 
   <header class="site-header">
     <div class="container header-inner">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav" aria-label="Principal">
-        <a href="#home">Home</a>
-        <a href="#showreel">Showreel</a>
-        <a href="#cases">Cases</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#processo">Processo</a>
-        <a href="#contato">Contato</a>
-      </nav>
+      
+      <div class="header-right">
+        <nav class="site-nav" aria-label="Principal">
+          <a href="#home">Home</a>
+          <a href="#showreel">Showreel</a>
+          <a href="#cases">Cases</a>
+          <a href="#servicos">
+            <span lang="en">Services</span>
+            <span lang="pt">Serviços</span>
+          </a>
+          <a href="#processo">
+            <span lang="en">Process</span>
+            <span lang="pt">Processo</span>
+          </a>
+          <a href="#contato">
+            <span lang="en">Contact</span>
+            <span lang="pt">Contato</span>
+          </a>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language selector">
+          <button type="button" class="lang-btn active" data-lang-set="en" aria-label="Switch to English">EN</button>
+          <span class="lang-divider">|</span>
+          <button type="button" class="lang-btn" data-lang-set="pt" aria-label="Mudar para Português">PT</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -30,8 +51,32 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>[Placeholder — rodapé / copyright]</p>
+      <p lang="en">[Placeholder — footer / copyright]</p>
+      <p lang="pt">[Placeholder — rodapé / copyright]</p>
     </div>
   </footer>
+
+  <script>
+    (function() {
+      const savedLang = localStorage.getItem('pref_lang') || 'en';
+      setLanguage(savedLang);
+
+      document.querySelectorAll('[data-lang-set]').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const lang = this.getAttribute('data-lang-set');
+          setLanguage(lang);
+          localStorage.setItem('pref_lang', lang);
+        });
+      });
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang;
+        
+        document.querySelectorAll('[data-lang-set]').forEach(btn => {
+          btn.classList.toggle('active', btn.getAttribute('data-lang-set') === lang);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
