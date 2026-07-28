@@ -24,12 +24,16 @@ description: Video Editor Portfolio for Gaming Creators
 <section id="showreel" class="section">
   <div class="container">
     <h2>Showreel</h2>
-    <p class="section-intro" lang="en">[Placeholder — Short showreel description.]</p>
-    <p class="section-intro" lang="pt">[Placeholder — Breve descrição do showreel.]</p>
+    <p class="section-intro" lang="en">Editing highlights and showcase of recent gaming projects.</p>
+    <p class="section-intro" lang="pt">Destaques de edição e amostras de projetos recentes de games.</p>
 
-    <div class="placeholder-box" aria-label="Video placeholder">
-      <p lang="en">[Placeholder — Showreel embed (YouTube, Vimeo, or file)]</p>
-      <p lang="pt">[Placeholder — Embed do showreel (YouTube, Vimeo ou arquivo)]</p>
+    <div class="placeholder-box" aria-label="Showreel link">
+      <p lang="en">
+        <a class="button" href="https://www.youtube.com/@kurtyren" target="_blank" rel="noopener noreferrer">Watch Channel / Showreel (@kurtyren)</a>
+      </p>
+      <p lang="pt">
+        <a class="button" href="https://www.youtube.com/@kurtyren" target="_blank" rel="noopener noreferrer">Assistir Canal / Showreel (@kurtyren)</a>
+      </p>
     </div>
   </div>
 </section>
@@ -37,30 +41,42 @@ description: Video Editor Portfolio for Gaming Creators
 <section id="cases" class="section section-alt">
   <div class="container">
     <h2>Cases</h2>
-    <p class="section-intro" lang="en">[Placeholder — Introduction to featured projects.]</p>
-    <p class="section-intro" lang="pt">[Placeholder — Introdução aos projetos.]</p>
+    <p class="section-intro" lang="en">Featured editing work across gameplay and entertainment formats.</p>
+    <p class="section-intro" lang="pt">Projetos selecionados de edição em formatos de gameplay e entretenimento.</p>
 
     <ul class="card-list">
       <li class="card">
-        <h3>[Placeholder — Case 01]</h3>
-        <p lang="en">[Placeholder — Short context in EN]</p>
-        <p lang="pt">[Placeholder — Contexto curto em PT]</p>
-        <p class="meta" lang="en">[Placeholder — Before/After link]</p>
-        <p class="meta" lang="pt">[Placeholder — Link antes/depois]</p>
+        <h3 lang="en">Case 01 — Vertical Gameplay Edit</h3>
+        <h3 lang="pt">Case 01 — Vídeo Vertical de Gameplay</h3>
+
+        <p lang="en">Fast-paced vertical edit tailored for Shorts, Reels, and TikTok gaming audience.</p>
+        <p lang="pt">Edição dinâmica vertical otimizada para a audiência de Shorts, Reels e TikTok.</p>
+
+        <p class="meta" lang="en">
+          Focus: Highlights & sound design | 
+          <a href="https://www.youtube.com/@kurtyren" target="_blank" rel="noopener noreferrer">View Channel (@kurtyren)</a>
+        </p>
+        <p class="meta" lang="pt">
+          Foco: Highlights e sound design | 
+          <a href="https://www.youtube.com/@kurtyren" target="_blank" rel="noopener noreferrer">Ver Canal (@kurtyren)</a>
+        </p>
       </li>
+
       <li class="card">
-        <h3>[Placeholder — Case 02]</h3>
-        <p lang="en">[Placeholder — Short context in EN]</p>
-        <p lang="pt">[Placeholder — Contexto curto em PT]</p>
-        <p class="meta" lang="en">[Placeholder — Before/After link]</p>
-        <p class="meta" lang="pt">[Placeholder — Link antes/depois]</p>
-      </li>
-      <li class="card">
-        <h3>[Placeholder — Case 03]</h3>
-        <p lang="en">[Placeholder — Short context in EN]</p>
-        <p lang="pt">[Placeholder — Contexto curto em PT]</p>
-        <p class="meta" lang="en">[Placeholder — Before/After link]</p>
-        <p class="meta" lang="pt">[Placeholder — Link antes/depois]</p>
+        <h3 lang="en">Case 02 — Vertical Entertainment Edit</h3>
+        <h3 lang="pt">Case 02 — Vídeo Vertical de Entretenimento</h3>
+
+        <p lang="en">Humorous and engaging short-form video focusing on memes, timing, and entertainment.</p>
+        <p lang="pt">Conteúdo curto de entretenimento e humor, focado em timing cômico, memes e legendas.</p>
+
+        <p class="meta" lang="en">
+          Focus: Pacing, subtitles & comedic timing | 
+          <a href="https://www.youtube.com/@Lulubian1" target="_blank" rel="noopener noreferrer">View Channel (@Lulubian1)</a>
+        </p>
+        <p class="meta" lang="pt">
+          Foco: Ritmo, legendas e timing cômico | 
+          <a href="https://www.youtube.com/@Lulubian1" target="_blank" rel="noopener noreferrer">Ver Canal (@Lulubian1)</a>
+        </p>
       </li>
     </ul>
   </div>

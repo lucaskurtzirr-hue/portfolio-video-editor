@@ -1,3 +1,3 @@
-# Case 03
+# Case 03 — Vídeo Longo / Highlights (Reservado)
 
-<!-- A preencher. Use case-template.md como referência. -->
+- **Status:** Reservado para adição futura de vídeos longos de YouTube/Stream.

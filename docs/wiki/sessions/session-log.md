@@ -180,7 +180,39 @@
 
 ### Próximo passo
 
-- Coletar informações do Bloco 2 (Showreel, Cases e Vídeos).
+- Iniciar Bloco 3 — Serviços.
+
+---
+
+## 2026-07-28 — Bloco 2 (Materiais Visuais) Concluído
+
+### Feito
+
+- Configurado o botão/link do Showreel apontando para o canal `@kurtyren`.
+- Criados 2 cards de cases reais no `index.md`: Case 01 (Vídeo Vertical de Gameplay - `@kurtyren`) e Case 02 (Vídeo Vertical de Entretenimento - `@Lulubian1`).
+- Atualizados `docs/wiki/cases/case-01.md`, `docs/wiki/cases/case-02.md`, `docs/wiki/cases/case-03.md` e `docs/wiki/assets/asset-inventory.md`.
+
+### Arquivos alterados
+
+- `index.md`
+- `docs/wiki/cases/case-01.md`
+- `docs/wiki/cases/case-02.md`
+- `docs/wiki/cases/case-03.md`
+- `docs/wiki/assets/asset-inventory.md`
+- `docs/wiki/sessions/session-log.md`
+
+### Decisões
+
+- Apresentar 2 cases focados em formatos verticais (gameplay e entretenimento) utilizando os canais oficiais do editor (`@kurtyren` e `@Lulubian1`).
+
+### Pendências
+
+- Iniciar Bloco 3 — Serviços.
+
+### Próximo passo
+
+- Coletar informações do Bloco 3 — Serviços.
+
 
 
 
