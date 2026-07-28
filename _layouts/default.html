@@ -58,24 +58,27 @@
 
   <script>
     (function() {
-      const savedLang = localStorage.getItem('pref_lang') || 'en';
-      setLanguage(savedLang);
-
-      document.querySelectorAll('[data-lang-set]').forEach(btn => {
-        btn.addEventListener('click', function() {
-          const lang = this.getAttribute('data-lang-set');
-          setLanguage(lang);
-          localStorage.setItem('pref_lang', lang);
-        });
-      });
-
-      function setLanguage(lang) {
-        document.documentElement.lang = lang;
-        
+      function applyLang(lang) {
+        document.documentElement.setAttribute('lang', lang);
         document.querySelectorAll('[data-lang-set]').forEach(btn => {
           btn.classList.toggle('active', btn.getAttribute('data-lang-set') === lang);
         });
       }
+
+      const savedLang = localStorage.getItem('pref_lang') || 'en';
+      applyLang(savedLang);
+
+      document.addEventListener('DOMContentLoaded', function() {
+        applyLang(savedLang);
+
+        document.querySelectorAll('[data-lang-set]').forEach(btn => {
+          btn.addEventListener('click', function() {
+            const lang = this.getAttribute('data-lang-set');
+            applyLang(lang);
+            localStorage.setItem('pref_lang', lang);
+          });
+        });
+      });
     })();
   </script>
 </body>

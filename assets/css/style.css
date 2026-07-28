@@ -76,11 +76,21 @@ body {
 
 /* Language Visibility Rules */
 
-html[lang="en"] [lang="pt"] {
+[lang="en"], [data-lang="en"] {
+  display: revert;
+}
+
+[lang="pt"], [data-lang="pt"] {
+  display: revert;
+}
+
+html[lang="en"] [lang="pt"],
+html[lang="en"] [data-lang="pt"] {
   display: none !important;
 }
 
-html[lang="pt"] [lang="en"] {
+html[lang="pt"] [lang="en"],
+html[lang="pt"] [data-lang="en"] {
   display: none !important;
 }
 
