@@ -124,3 +124,30 @@
 
 - Preencher brief e posicionamento na wiki.
 
+---
+
+## 2026-07-28 — Criação do Plano de Preenchimento do Portfolio
+
+### Feito
+
+- Criado o plano detalhado de preenchimento do portfolio em `docs/wiki/portfolio-fill-plan.md`.
+- Definidos objetivos, ordem de preenchimento (7 etapas), regras de integridade de dados e resultado esperado para a v1 do site.
+
+### Arquivos alterados
+
+- `docs/wiki/portfolio-fill-plan.md` (criado)
+- `docs/wiki/sessions/session-log.md`
+
+### Decisões
+
+- Seguir rigorosamente o fluxo de preenchimento priorizando clareza, clareza visual e sem inventar dados/métricas/cases.
+
+### Pendências
+
+- Iniciar a etapa 1 (coleta de posicionamento e brief).
+
+### Próximo passo
+
+- Coletar informações de posicionamento e preencher o brief.
+
+
