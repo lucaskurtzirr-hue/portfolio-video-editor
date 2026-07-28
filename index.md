@@ -123,33 +123,39 @@ description: Video Editor Portfolio for Gaming Creators
     <h2 lang="en">Process</h2>
     <h2 lang="pt">Processo</h2>
 
-    <p class="section-intro" lang="en">[Placeholder — How collaboration works.]</p>
-    <p class="section-intro" lang="pt">[Placeholder — Como funciona a colaboração.]</p>
+    <p class="section-intro" lang="en">A simple, transparent 5-step workflow to turn raw footage into published videos.</p>
+    <p class="section-intro" lang="pt">Um fluxo de trabalho simples e transparente em 5 passos para transformar material bruto em vídeos publicados.</p>
 
     <ol class="process-list">
       <li>
-        <strong lang="en">[Placeholder — Step 1]</strong>
-        <strong lang="pt">[Placeholder — Etapa 1]</strong> — 
-        <span lang="en">[Placeholder — Briefing / Raw Footage]</span>
-        <span lang="pt">[Placeholder — Briefing / Material]</span>
+        <strong lang="en">1. Send Raw Content</strong>
+        <strong lang="pt">1. Envio do Material</strong> — 
+        <span lang="en">You share the raw gameplay, stream VODs, or footage along with your guidelines.</span>
+        <span lang="pt">Você envia a gameplay bruta, VODs da live ou vídeos junto com suas orientações.</span>
       </li>
       <li>
-        <strong lang="en">[Placeholder — Step 2]</strong>
-        <strong lang="pt">[Placeholder — Etapa 2]</strong> — 
-        <span lang="en">[Placeholder — Video Editing]</span>
-        <span lang="pt">[Placeholder — Edição]</span>
+        <strong lang="en">2. Highlights Selection</strong>
+        <strong lang="pt">2. Seleção de Momentos</strong> — 
+        <span lang="en">I review the material and curate the best moments, funny scenes, and top plays.</span>
+        <span lang="pt">Eu analiso o material e seleciono os melhores momentos, jogadas e cenas de humor.</span>
       </li>
       <li>
-        <strong lang="en">[Placeholder — Step 3]</strong>
-        <strong lang="pt">[Placeholder — Etapa 3]</strong> — 
-        <span lang="en">[Placeholder — Revision & Feedback]</span>
-        <span lang="pt">[Placeholder — Revisão]</span>
+        <strong lang="en">3. First Draft Edit</strong>
+        <strong lang="pt">3. Primeira Versão</strong> — 
+        <span lang="en">Editing with pacing, motion graphics, kinetic typography, and sound effects.</span>
+        <span lang="pt">Edição focada em ritmo, motion graphics, tipografia cinética e efeitos sonoros.</span>
       </li>
       <li>
-        <strong lang="en">[Placeholder — Step 4]</strong>
-        <strong lang="pt">[Placeholder — Etapa 4]</strong> — 
-        <span lang="en">[Placeholder — Final Delivery]</span>
-        <span lang="pt">[Placeholder — Entrega]</span>
+        <strong lang="en">4. Review & Feedback</strong>
+        <strong lang="pt">4. Revisão e Ajustes</strong> — 
+        <span lang="en">You watch the draft and request any fine-tuning or adjustments.</span>
+        <span lang="pt">Você assiste à prévia e solicita os ajustes necessários.</span>
+      </li>
+      <li>
+        <strong lang="en">5. Final Delivery</strong>
+        <strong lang="pt">5. Entrega Final</strong> — 
+        <span lang="en">You receive the polished, high-retention video ready to publish.</span>
+        <span lang="pt">Você recebe o vídeo finalizado de alta retenção, pronto para postar.</span>
       </li>
     </ol>
   </div>

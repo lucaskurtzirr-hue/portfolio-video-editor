@@ -241,7 +241,35 @@
 
 ### Próximo passo
 
-- Confirmar o fluxo de trabalho do Bloco 4 — Processo.
+- Iniciar Bloco 4 — Processo.
+
+---
+
+## 2026-07-28 — Bloco 4 (Processo) Concluído
+
+### Feito
+
+- Adicionado o fluxo de trabalho em 5 passos bilíngue no `index.md`: **1. Send Raw Content / Envio do Material**, **2. Highlights Selection / Seleção de Momentos**, **3. First Draft Edit / Primeira Versão**, **4. Review & Feedback / Revisão e Ajustes** e **5. Final Delivery / Entrega Final**.
+- Atualizados `docs/wiki/decisions/decisions.md` e `docs/wiki/sessions/session-log.md`.
+
+### Arquivos alterados
+
+- `index.md`
+- `docs/wiki/decisions/decisions.md`
+- `docs/wiki/sessions/session-log.md`
+
+### Decisões
+
+- Adotado o processo padronizado em 5 etapas para proporcionar clareza aos clientes sobre prazos e revisões.
+
+### Pendências
+
+- Iniciar Bloco 5 — Contato e CTA final.
+
+### Próximo passo
+
+- Coletar/confirmar informações do Bloco 5 — Contato e CTA final.
+
 
 
 
