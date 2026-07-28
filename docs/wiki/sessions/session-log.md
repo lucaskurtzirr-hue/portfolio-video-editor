@@ -148,6 +148,39 @@
 
 ### Próximo passo
 
-- Coletar informações de posicionamento e preencher o brief.
+- Iniciar Bloco 2 — Materiais Visuais.
+
+---
+
+## 2026-07-28 — Bloco 1 (Posicionamento) Concluído
+
+### Feito
+
+- Definido o nome profissional do editor: **Lucas Jimenez**.
+- Definido o posicionamento bilíngue de alta retenção para games (Vídeos longos, Highlights, VODs, Shorts, TikToks e Reels em qualquer estilo/gênero).
+- Aplicadas as alterações no `index.md`, `_layouts/default.html` e `_config.yml`.
+- Atualizados `docs/wiki/brief.md` e `docs/wiki/positioning.md`.
+
+### Arquivos alterados
+
+- `index.md`
+- `_layouts/default.html`
+- `_config.yml`
+- `docs/wiki/brief.md`
+- `docs/wiki/positioning.md`
+- `docs/wiki/sessions/session-log.md`
+
+### Decisões
+
+- Posicionamento focado em edição para criadores de games de múltiplos formatos e gêneros.
+
+### Pendências
+
+- Iniciar Bloco 2 — Materiais Visuais.
+
+### Próximo passo
+
+- Coletar informações do Bloco 2 (Showreel, Cases e Vídeos).
+
 
 

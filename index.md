@@ -6,18 +6,17 @@ description: Video Editor Portfolio for Gaming Creators
 
 <section id="home" class="section hero">
   <div class="container">
-    <p class="eyebrow" lang="en">[Placeholder — Tagline]</p>
-    <p class="eyebrow" lang="pt">[Placeholder — Tagline em PT]</p>
+    <p class="eyebrow" lang="en">Gaming Video Editor</p>
+    <p class="eyebrow" lang="pt">Editor de Vídeo de Games</p>
     
-    <h1 lang="en">[Placeholder — Main Headline]</h1>
-    <h1 lang="pt">[Placeholder — Headline Principal]</h1>
+    <h1>Lucas Jimenez</h1>
 
-    <p class="lead" lang="en">[Placeholder — Positioning in 1–2 sentences. E.g., gaming video editing for content creators.]</p>
-    <p class="lead" lang="pt">[Placeholder — Posicionamento em 1–2 frases. Ex.: edição de vídeos de games para criadores.]</p>
+    <p class="lead" lang="en">Transforming raw gameplay, live streams, and VODs into high-retention YouTube long-form videos, highlights, Shorts, TikToks, and Reels.</p>
+    <p class="lead" lang="pt">Transformando gameplays brutas, lives e VODs em vídeos longos para YouTube, highlights, Shorts, TikToks e Reels com alta retenção.</p>
 
     <p>
-      <a class="button" href="#contato" lang="en">[Placeholder — Main CTA]</a>
-      <a class="button" href="#contato" lang="pt">[Placeholder — CTA Principal]</a>
+      <a class="button" href="#contato" lang="en">Get a Quote</a>
+      <a class="button" href="#contato" lang="pt">Pedir Orçamento</a>
     </p>
   </div>
 </section>
